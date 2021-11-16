@@ -1,0 +1,25 @@
+{ "data" : 
+    {
+        "emission_category_1" : {
+            "country_1" : {
+                "year_1" : "value_1",
+                "year_2" : "value_2"
+                },
+            "country_2" : {
+                    "year_1" : "value_1",
+                    "year_3" : "value_2"
+                }
+            },
+            "emission_category_2" : {
+                "country_1" : {
+                    "year_1" : "value_1",
+                    "year_2" : "value_2"
+                    },
+                "country_3" : {
+                        "year_1" : "value_1",
+                        "year_3" : "value_2"
+                    }
+                }
+    }
+}
+                
