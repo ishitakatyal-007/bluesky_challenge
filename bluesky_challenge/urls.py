@@ -17,9 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include("emissions_data.urls")),
+    path(r'', admin.site.urls),
+    path('data/', include("emissions_data.urls")),
     path('categories/', include("categories.urls")),
     path('all_countries/', include("countries.urls")),
-    path(r'admin/', admin.site.urls),
     
 ]
